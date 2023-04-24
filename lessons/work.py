@@ -1,14 +1,20 @@
-class course:
-    def __init__(self, name, level, req):
-        self.name = name
-        self.level = level 
-        self.req = req
+class ChristmasTreeFarm:
+    plots: list[int]
+  
+
+def __init__(self, plots: int, initial_planting: int) -> None:
+    self.plots = []
+    idx: int = 0 
+    while idx < initial_planting:
+        self.plots.append(1)
+        idx += 1 
+    while idx < plots:
+        self.plots.append(0)
+        idx += 1
+    
+
+def plant(self, arg: int) -> None:
+    self.plots[arg] == 1 
 
 
-    def find_courses(course_list: list[str], req: str):
-        new_courses: list = []
-        for course in course_list:
-            if course.level >= 400 and req in course.req:
-                new_courses.append(course)
-        return new_courses
-
+def growth 
